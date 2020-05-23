@@ -1,0 +1,20 @@
+table {
+    /* Not required only for visualizing */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table thead tr th {
+    /* Important */
+    background-color: lightgray;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+td {
+    /* Not required only for visualizing */
+    padding: 1em;
+    text-align: center;
+    vertical-align: center;
+}
